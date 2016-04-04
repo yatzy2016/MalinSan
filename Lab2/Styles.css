@@ -2,15 +2,10 @@ header {
 	background: Coral;
 	text-align: center;
 }
-ul 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+ul{ 
     background-color: khaki;
 }
 body { background-color: Lavender;
 }
-img. { width: 100px height: auto; 		 
-}
+
 
