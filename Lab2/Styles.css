@@ -1,5 +1,5 @@
 header {
-	background: lightblue;
+	background: Coral;
 	text-align: center;
 }
 ul 
@@ -7,25 +7,10 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
+    background-color: khaki;
+}
+body { background-color: Lavender;
+}
+img. { width: 100px height: auto; 		 
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-background-color:#4CAF50;
-}
