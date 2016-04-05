@@ -1,0 +1,29 @@
+body {
+	background-color: lightblue;
+	}
+h1 {
+color: brown;	
+}
+h4 {
+color: orangered;
+}
+p {
+	background-color: lightgreen; 
+	}
+	a {
+	}
+p {
+    background-color: lightblue;
+    color: blueviolet;
+}
+a {
+    background-color: gainsboro;
+}
+a:active {
+    color: green;
+}
+.active {
+    background-color: red;
+}	
+body {
+    background-color: pink;

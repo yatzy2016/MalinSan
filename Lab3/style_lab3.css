@@ -1,0 +1,14 @@
+.produktruta {
+	width: 150px;
+	background-color: lightblue;
+	text-align: center; 
+	float: left;
+	margin: 10px;
+	} 
+.container {
+	width:1000px;
+	background-color: gray;
+	margin: 10px;
+	}
+
+
