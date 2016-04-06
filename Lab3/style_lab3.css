@@ -5,10 +5,24 @@
 	float: left;
 	margin: 10px;
 	} 
-.container {
+article {
 	width:1000px;
 	background-color: gray;
 	margin: 10px;
 	}
+	h1{
+	color: red;
+	}
+	h2{
+	color: gray;
+	}
 
+.varannanrad{
+	background-color: yellow;
+}
+table
+{
+	border: solid;
+	border color: 1px red;
+}
 
