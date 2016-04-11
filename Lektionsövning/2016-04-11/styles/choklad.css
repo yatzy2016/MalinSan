@@ -1,0 +1,71 @@
+header, section, footer, aside, nav, article, figcaption{
+	display: block;
+}
+body {
+	color: #666; /*grå text*/
+	background-color: #fefefe;/*ljusgrå bakkgrund*/
+	background-image: url('../images/choklad2.jpg');
+	background-position: center;
+	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	font-family: Georgia, 'Times New Roman', Serif;
+	line-height: 1,4em; /*radavstånd*/
+	margin: 0; 
+	}
+	#wrapper{
+	width: 900px;
+	margin: 20px auto 20px auto;
+	background-color:#401201; /*chokladbrund*/	
+	}
+header{
+	height: 150px;
+	background-image: url('../images/kakorargott.PNG');
+	border-bottom-left-radius: 40px 20px;
+	background-repeat: no-repeat;
+}
+h1{
+text-indent: -9999px;
+width: 900px;
+height: 150px;
+margin: 0;
+
+nav, footer{
+	clear: both;
+	color: magenta
+	background-color:#592202;
+	height: 30px;
+}
+	nav ul{
+		margin: 0;
+		padding: 5px 0; /*uppe/nere samt höger/väsnter*/
+		padding: 5px 0; /*klockmodellen som ger uppe, höger, nere, vänster*/
+		/*detta blir mellanrummen på ul boxen*/
+	}
+	article{
+		clear: both;
+		width: 100%;
+	}
+	figure{ /*bilderna inklusive text*/
+        width: 235px;
+        height:200px;
+        float:left;
+        padding: 5px;
+        border: 6px solid #eee;
+        border-radius: 15px #592202;
+        }
+	nav, ul, li{
+		display: inline;/*gör att elementen hamnar efter varandra*/
+		margin-right: 50px; /*skapar ett mellanrum mellan li dokumenten*/
+	}
+	nav ul li a{ /*alla a som ligger i en li som ligger i en ul som ligger i nav*/
+		color: #000;
+	}
+               }
+section.courses{
+width: 640px;
+border-right: 1px solid white;
+padding-right: 20px
+}
+nav ul li a:hover {
+	color: #666;
+}
