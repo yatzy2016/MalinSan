@@ -19,11 +19,10 @@ article{
 	body{	
 	background-color: #ppp; 
 	}
-	}
-	th, td {
+	th, td{
     padding: 8px;
 	}
-	table {
+	table{
 		border: 1px solid black;
 		border color: 1px red;
    	 	text-align: left;    

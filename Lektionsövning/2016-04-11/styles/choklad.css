@@ -64,8 +64,12 @@ nav, footer{
 section.courses{
 width: 640px;
 border-right: 1px solid white;
-padding-right: 20px
+padding-right: 20px;
 }
+figcaption{
+	text
+}
+
 nav ul li a:hover {
 	color: #666;
 }
