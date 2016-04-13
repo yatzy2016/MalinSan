@@ -17,6 +17,10 @@ body {
 	margin: 20px auto 20px auto;
 	background-color:#401201; /*chokladbrund*/	
 	}
+	img{
+		width: auto;
+		height: auto;
+	}
 header{
 	height: 150px;
 	background-image: url('../images/kakorargott.PNG');
@@ -28,10 +32,10 @@ text-indent: -9999px;
 width: 900px;
 height: 150px;
 margin: 0;
-
+}
 nav, footer{
 	clear: both;
-	color: magenta
+	color: magenta;
 	background-color:#592202;
 	height: 30px;
 }
@@ -59,17 +63,16 @@ nav, footer{
 	}
 	nav ul li a{ /*alla a som ligger i en li som ligger i en ul som ligger i nav*/
 		color: #000;
-	}
-               }
-section.courses{
-width: 640px;
-border-right: 1px solid white;
-padding-right: 20px;
+	}         
+	section.courses{
+	width: 640px;
+	border-right: 1px solid white;
+	padding-right: 20px;
 }
 figcaption{
 	text
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
 	color: #666;
 }
