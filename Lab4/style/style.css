@@ -1,3 +1,6 @@
+.logga {
+    width: 50px;
+}
 body {
     background-color: lightyellow;
 }
@@ -6,21 +9,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #555;
 }
 li {
-    float: left;
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
+        display:inline;
+        float: left;
+    }
 
 li a {
     display: block;
@@ -30,22 +24,15 @@ li a {
     text-decoration: none;
 }
 
-a:hover:not(.active) {
-    background-color: #111;
-}
-
 .active {
 background-color:#4CAF50;
 }
  a:link, a:visited {
-    background-color: #f44336;
+    background-color: #lightblue;
     color: white;
-    padding: 14px 25px;
+    padding: 10px 35px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
 }
 
-
-a:hover, a:active {
-    background-color: red;
