@@ -1,20 +1,14 @@
-.logga {
-    width: 50px;
-}
-body {
-    background-color: lightyellow;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
+    background-color: #333;
 }
+
 li {
-        display:inline;
-        float: left;
-    }
+    float: left;
+}
 
 li a {
     display: block;
@@ -24,15 +18,13 @@ li a {
     text-decoration: none;
 }
 
+a:hover:not(.active) {
+    background-color: #111;
+}
+
 .active {
 background-color:#4CAF50;
 }
- a:link, a:visited {
-    background-color: #lightblue;
-    color: white;
-    padding: 10px 35px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
 
+.logga {
+    width: 100px;
