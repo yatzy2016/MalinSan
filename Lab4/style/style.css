@@ -28,3 +28,11 @@ background-color:#4CAF50;
 
 .logga {
     width: 100px;
+}
+ body {
+    background-image: url(../images/ljusrunning.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+    background-color: lightyellow;
+ }
