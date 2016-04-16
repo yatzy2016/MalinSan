@@ -36,3 +36,13 @@ background-color:#4CAF50;
     background-position: fixed;
     background-color: lightyellow;
  }
+
+ h1, h2, h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1:hoover {
+color: yellow;
+}
+
