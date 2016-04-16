@@ -61,3 +61,13 @@ a:hover, a:active {
 img .karta, .fb, .partner {
     max-height: 500px;
 }
+
+p, h1, h2, h3, h4, h5, li {
+    font-family: Verdana;
+}
+nav {
+    display: block;
+}
+.boka {
+    margin-right: 10px;
+}
