@@ -72,6 +72,7 @@
     Betala nu
   </button>
   </form>
+  <h3>Fyll i dina uppgifter här:</h3>
   <form>
     <label id="Namn">Förnamn</label><br/>
     <input type="text" id="Namn" name="Namn"/><br/>
@@ -89,10 +90,58 @@
     <input type="text" id="Ort" name="Ort"/><br/>
 
     <label id="e-post">e-post</label><br/>
-    <input type="e-mail" id="e-post" name="e-pst"/><br/>
+    <input type="e-mail" id="e-post" name="e-post" required title="name@domain.se" placeholder="name@domain.se"><br/>
 
     <label id="Personnummer">Personnummer</label><br/>
     <input type="text" id="Personnummer" name="Personnummer"/><br/>
+</form>
+<select name="fragor" class="fragor">
+<fieldset class="input">
+  <form action=" Svara här">
+  <h3>Vi vill bli bättre</h3>
+  <p>Svara på nedanstående frågor för att hjälpa oss i vår ambition att bli bättre.</p>
+  <label>Din ålder:<input type="text" name="Din ålder"></label><br>
+  <input type="checkbox" name="Undersökning" value="Man">Man<br>
+  <input type="checkbox" name="Undersökning" value="Kvinna">Kvinna<br>
+  <p> 
+  </p>
+  <p>Är du?</p>
+  <input type="checkbox" name="Undersökning" value="Ny kund">Ny kund<br>
+  <input type="checkbox" name="Undersökning" value="Kund sedan tidigare">Kund sedan tidigare<br>
+  <p>Vilken typ av kund är du?</p>
+  <input type="checkbox" name="Undersökning" value="Privatkund">Privatkund<br>
+  <input type="checkbox" name="Undersökning" value="Företagskund">Företagskund<br>
+  <p> 
+  </p>
+  <p>Vilken typ av kund är du?</p>
+  <input type="checkbox" name="Undersökning" value="Privatkund">Privatkund<br>
+  <input type="checkbox" name="Undersökning" value="Företagskund">Företagskund<br>
+  <p> 
+  </p>
+  <p>Vilka produkter har du köpt under det senaste året?</p>
+  <input type="checkbox" name="Undersökning" value="Färg">Bokat PT<br>
+  <input type="checkbox" name="Undersökning" value="Penslar">Köpt kläder<br>
+  <input type="checkbox" name="Undersökning" value="Annat">Annat<br>
+  <p> 
+  </p>  
+  <p>Hur ofta använder du någon av våra produkter?</p>
+  <input type="checkbox" name="Undersökning" value="Varje dag">Varje dag<br>
+  <input type="checkbox" name="Undersökning" value="Någon eller några gånger varje vecka">Någon eller några gånger varje vecka<br>
+  <input type="checkbox" name="Undersökning" value="Någon eller några gånger varje månad">Någon eller några gånger varje månad<br>
+  <input type="checkbox" name="Undersökning" value="Sällan eller inte alls">Sällan eller inte alls<br>
+  <p> 
+  </p>
+  <p>Våra produkter håller god kvalitet</p>
+  <input type="checkbox" name="Undersökning" value="Håller helt med">Håller helt med<br>
+  <input type="checkbox" name="Undersökning" value="Håller delvis med">Håller delvis med<br>
+  <input type="checkbox" name="Undersökning" value="Håller inte alls med">Håller inte alls med<br>
+  <p> 
+  </p>
+  <textarea name="Kommentera gärna" cols="30" rows="6">Skriv här:</textarea>
+  <p> 
+  </p>
+  <h4>Tack för dina svar, vi uppskattar din hjälp</h4>
+  </fieldset>
 </form>
   <footer>
     <div class="col-sm-3">
@@ -117,7 +166,7 @@
       <div class="col-sm-3"><h3>Nyhetsbrev</h3><img src="images/fb.png" alt="sociala medier" class="fb"title="sociala medier"> 
         <h3>Anmäl dig till vårt nyhetsbrev:</h3>
         <form action="nyhetsbrevet">
-      <p>Din mailadress:</p><input type="text" name="mailadressen" required value="Skriv din mailadress"><br><p>  
+      <p>Din mailadress:</p><input type="text" name="mailadressen" required title="name@domain.se" placeholder="name@domain.se"><br><p>  
       </p>
       <a href="default.asp" class="skicka" target="_blank" input type="submit" value="Skicka">Skicka</a>
       </form>
