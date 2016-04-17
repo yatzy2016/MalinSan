@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
-    <title>PT at Home-checkout</title>
+  <title>PT at Home</title>
   <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/…/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/…/l…/jquery/1.12.0/jquery.min.js"></script>
@@ -33,67 +33,81 @@
           <li><a href="shop.html">Shop</a></li></ul></nav>
       </div>
   </header>
-  <body>
-  <table style="width:100%">
-    <h1>Varukorg</h1>
-    <p><h4>Dessa varor har du valt</h4></p>
-    <tr>
-      <th><h4>Produkt</h4></th>
-      <th><h4>Information</h4></th>
-      <th>Pris</th>
-    </tr>
-    <tr>
-        <td><img src="images/byxor.jpg" alt="byxor" title="byxor">Byxor, svarta</td>
-        <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-        <td>298 kr</td>
-    </tr>
-    <tr>
-      <td><img src="images/byxor2.jpg" alt="byxor-gra" title="byxor-gra">Byxor, grå</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>398 kr</td>
-    </tr>
-    <tr>
-      <td><img src="images/byxor1.jpg" alt="byxa-rosa" title="byxa-rosa">Byxa, rosa</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>598 kr</td>
-    </tr>
-    <tr>
-      <td><img src="images/byxor3.jpg" alt="byxor-los_passform" title="byxor-los_passform">Byxor, lös passform</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>298 kr</td>
-    </tr>
-  </table>
-  <p>
-  </p>
-  <form action="index.html">
-  <button>Vill du handla mera</button>
-  <p>eller vill du</p>
-    <button>
-    Betala nu
-  </button>
-  </form>
-  <form>
-    <label id="Namn">Förnamn</label><br/>
-    <input type="text" id="Namn" name="Namn"/><br/>
+<h1>Shopping Cart</h1>
 
-    <label id="Efternamn">Efternamn</label><br/>
-    <input type="text" id="Efternamn" name="Efternamn"/><br/>
+<div class="shopping-cart">
 
-    <label id="Adress">Adress</label><br/>
-    <input type="text" id="Adress" name="Adress"/><br/>
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
 
-    <label id="Postnummer">Postnummer</label><br/>
-    <input type="text" id="Postnummer" name="Postnummer"/><br/>
+  <div class="product">
+    <div class="product-image">
+      <img src="http://s.cdpn.io/3/dingo-dog-bones.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Dingo Dog Bones</div>
+      <p class="product-description">The best dog bones of all time. Holy crap. Your dog will be begging for these things! I got curious once and ate one myself. I'm a fan.</p>
+    </div>
+    <div class="product-price">12.99</div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">25.98</div>
+  </div>
 
-    <label id="Ort">Ort</label><br/>
-    <input type="text" id="Ort" name="Ort"/><br/>
+  <div class="product">
+    <div class="product-image">
+      <img src="http://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Nutro™ Adult Lamb and Rice Dog Food</div>
+      <p class="product-description">Who doesn't like lamb and rice? We've all hit the halal cart at 3am while quasi-blackout after a night of binge drinking in Manhattan. Now it's your dog's turn!</p>
+    </div>
+    <div class="product-price">45.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">45.99</div>
+  </div>
 
-    <label id="e-post">e-post</label><br/>
-    <input type="e-mail" id="e-post" name="e-pst"/><br/>
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">71.97</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">15.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">90.57</div>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
 
-    <label id="Personnummer">Personnummer</label><br/>
-    <input type="text" id="Personnummer" name="Personnummer"/><br/>
-</form>
+</div>
   <footer>
     <div class="col-sm-3">
       <h3>Hitta till oss</h3><img src="images/karta.png" alt="karta" title="karta" class="karta">
