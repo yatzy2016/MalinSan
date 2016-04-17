@@ -30,20 +30,19 @@ background-color:#4CAF50;
     width: 100px;
 }
  body {
-    background-image: url(../images/ljusrunning.jpg);
+    background-image: url(../images/running.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: fixed;
-    background-color: lightyellow;
- }
-
- h1, h2, h3 {
+    background-position: absolute; top: 0;, left: 0;
+    background-color: #FFDEAD;
+    background width: 100%;
+}
+h1 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
-
-h1:hoover {
-color: yellow;
+h1:hover, a:hover {
+    background-color: yellow;
 }
 
 a:link, a:visited {
@@ -62,24 +61,24 @@ img .karta, .fb, .partner {
     max-height: 500px;
 }
 
-p, h1, h2, h3, h4, h5, li {
+p, h1, h2, h3, h4, h5, li, td, th {
     font-family: Helvetica;
 }
 h1 {
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: bold;
 }
 h2 {
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: bold;
 }
 h3 {
-    font-size: 40px;
-}
-
-h4 {
-    font-size: 30px;
-}
-h5 {
     font-size: 20px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
 }
 p {
     font-size: 10px;
