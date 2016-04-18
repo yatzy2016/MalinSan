@@ -19,10 +19,10 @@
     <div class="row">
       <div class="col-sm-2"><img src="images/PTlogo.png" class="logga" title="PTatHome" alt="PtatHomelogo"></div>
         <div class="col-sm-8"><p>Sök i bloggen här:</p><input type="search" name="Search" placeholder="Sök här:" class="sok"><input type="submit" value="Search"></div>
-        <div class="col-sm-2"><img src="images/varukorg.jpg" alt="varukorg" class="varukorg"></div>
+        <div class="col-sm-2"><a href="checkout.html"><img src="images/varukorg.jpg" alt="varukorg" class="varukorg"></a></div
     </div>
        <div class="row">
-          <nav><ul><li><a class="active" href="fredag.html">Hem</a></li>
+          <nav><ul><li><a class="active" href="index.html">Hem</a></li>
           <li><a href="produktsida.html">Produktsida</a></li>
           <li><a href="traning.html">Träning</a></li>
           <li><a href="mat.html">Mat</a></li>
@@ -34,7 +34,7 @@
       </div>
   </header>
   <body>
-  <table style="width:100%">
+  <table style="width:80%">
     <h1>Varukorg</h1>
     <p><h4>Dessa varor har du valt</h4></p>
     <tr>
@@ -70,27 +70,33 @@
   <p>eller vill du</p>
     <button>Betala nu</button>
   </form>
-  <h3>Fyll i dina uppgifter här:</h3>
-  <form>
-    <label id="namn">Förnamn</label><br/>
-    <input type="text" id="Namn" name="Namn"/><br/>
-    <label id="efternamn">Efternamn</label><br/>
-    <input type="text" id="Efternamn" name="Efternamn"/><br/>
-    <label id="adress">Adress</label><br/>
-    <input type="text" id="Adress" name="Adress"/><br/>
-    <label id="postnummer">Postnummer</label><br/>
-    <input type="text" id="Postnummer" name="Postnummer"/><br/>
-    <label id="ort">Ort</label><br/>
-    <input type="text" id="Ort" name="Ort"/><br/>
-    <label id="e-post">e-post</label><br/>
-    <input type="e-mail" id="e-post" name="e-post" required title="name@domain.se" placeholder="name@domain.se"><br/>
-    <label id="personnummer">Personnummer</label><br/>
-    <input type="text" id="personnummer" name="Personnummer"/><br/>
-</form>
+  <div class="row">
+      <article class="col-sm-6">
+        <h3>Fyll i dina uppgifter här:</h3>
+        <form>
+          <label id="namn">Förnamn</label><br/>
+          <input type="text" id="Namn" name="Namn"/><br/>
+          <label id="efternamn">Efternamn</label><br/>
+          <input type="text" id="Efternamn" name="Efternamn"/><br/>
+          <label id="adress">Adress</label><br/>
+          <input type="text" id="Adress" name="Adress"/><br/>
+          <label id="postnummer">Postnummer</label><br/>
+          <input type="text" id="Postnummer" name="Postnummer"/><br/>
+          <label id="ort">Ort</label><br/>
+          <input type="text" id="Ort" name="Ort"/><br/>
+          <label id="e-post">e-post</label><br/>
+          <input type="e-mail" id="e-post" name="e-post" required title="name@domain.se" placeholder="name@domain.se"><br/>
+          <label id="personnummer">Personnummer</label><br/>
+          <input type="text" id="personnummer" name="Personnummer"/><br/>
+        </form>
+    </article>
+  </div>
+<div class="row">
+    <article class="col-sm-6">
 <fieldset>
-  <select name="fragor" class="fragor">
-      <h3>Vi vill bli bättre</h3>
+      <h4>Vi vill bli bättre</h4>
       <p>Svara på nedanstående frågor för att hjälpa oss i vår ambition att bli bättre.</p>
+  <select name="fragor" class="fragor">
       <option>Din ålder:<input type="text" name="Din ålder"></option><br>
       <input type="checkbox" name="Undersokning" value="Man">Man<br>
       <input type="checkbox" name="Undersokning" value="Kvinna">Kvinna<br>
@@ -125,9 +131,9 @@
       </p>
       <p>Övriga kommentarer</p>
       <textarea name="Kommentera garna" cols="30" rows="6">Skriv här:</textarea>
-      <p> 
-      </p>
-      <h4>Tack för dina svar, vi uppskattar din hjälp och skickar en trisslott som tack för hjälpen</h4>
+      <p>Tack för dina svar, vi uppskattar din hjälp och skickar en trisslott som tack för hjälpen</p>
+  </article>
+</div>
 </select>
    </fieldset>
 </form>
