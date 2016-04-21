@@ -1,7 +1,4 @@
-.video  {
-    width: 200px;
-    height: 150px;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -14,7 +11,16 @@ li {
     float: left;
 }
 
-li a {
+.mammalista{
+    list-style-type: none;
+    background-color: none;
+
+}
+
+.mamma {
+    border-top: 40px;
+}
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -31,7 +37,7 @@ background-color:#4CAF50;
 }
 
 .logga {
-    width: 100px;
+    width: 150px;
 }
  body {
     background-image: url(../images/running.jpg);
@@ -106,4 +112,11 @@ th {
 }
 td {
     font-size: 10px;
+}
+.fragor{
+
+    margin-left: 20px;
+}
+p {
+    font-size: 20px;
 }

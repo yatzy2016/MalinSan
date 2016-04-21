@@ -30,10 +30,10 @@
           <li><a href="shop.html">Shop</a></li></ul></nav>
       </div>
   </header>
-  <div class="container-fluid">
-    <div class="row">
-      <article class="col-sm-9">
-            <table style="width:80%">
+  <body>
+  <div class="row">
+  <div class="col-sm-6">
+    <table style="width:80%">
         <h1>Varukorg</h1>
         <p><h4>Dessa varor har du valt</h4></p>
       <tr>
@@ -45,31 +45,102 @@
         <td><img src="images/byxor.jpg" alt="byxor" title="byxor" name="Byxor"><legend>Byxor</legend></td>
         <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
         <td>298 kr</td>
+      </tr>
+      <tr>
+        <td><img src="images/byxor2.jpg" alt="byxor-gra" title="byxor-gra">Byxor, grå</td>
+        <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
+        <td>398 kr</td>
     </tr>
     <tr>
-      <td><img src="images/byxor2.jpg" alt="byxor-gra" title="byxor-gra">Byxor, grå</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>398 kr</td>
+        <td><img src="images/byxor1.jpg" alt="byxa-rosa" title="byxa-rosa">Byxa, rosa</td>
+        <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
+        <td>598 kr</td>
     </tr>
     <tr>
-      <td><img src="images/byxor1.jpg" alt="byxa-rosa" title="byxa-rosa">Byxa, rosa</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>598 kr</td>
-    </tr>
-    <tr>
-      <td><img src="images/byxor3.jpg" alt="byxor-los_passform" title="byxor-los_passform">Byxor, lös passform</td>
-      <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
-      <td>298 kr</td>
+        <td><img src="images/byxor3.jpg" alt="byxor-los_passform" title="byxor-los_passform">Byxor, lös passform</td>
+        <td>Mjuka och sköna träningsbyxor med lös passform och nedvikbar midja. Dragsko nertill. Material: 90% Polyester 10% Elastan</td>
+        <td>298 kr</td>
     </tr>
   </table>
   </div>
-      </article>
-        <aside class="col-sm-3">
-            <img src="images/balans.PNG" class="balans" alt="balanstraning" title="balanstraning"> <img src="images/mamma.PNG" class="mammabild" alt="mammatraning" title="mammatraning"><img src="images/rehab.PNG" class="rehabbild" alt="rehbtraning" title="rehabtraning">
-        </aside> 
-    </div>
+  <p>
+  </p>
+  <form action="index.html">
+  <button>Vill du handla mera</button>
+  <p>eller vill du</p>
+    <button>Betala nu</button>
+  </form>
+  <div class="row">
+      <article class="col-sm-6">
+        <h3>Fyll i dina uppgifter här:</h3>
+        <form>
+          <label id="namn">Förnamn</label><br/>
+          <input type="text" id="Namn" name="Namn"/><br/>
+          <label id="efternamn">Efternamn</label><br/>
+          <input type="text" id="Efternamn" name="Efternamn"/><br/>
+          <label id="adress">Adress</label><br/>
+          <input type="text" id="Adress" name="Adress"/><br/>
+          <label id="postnummer">Postnummer</label><br/>
+          <input type="text" id="Postnummer" name="Postnummer"/><br/>
+          <label id="ort">Ort</label><br/>
+          <input type="text" id="Ort" name="Ort"/><br/>
+          <label id="e-post">e-post</label><br/>
+          <input type="e-mail" id="e-post" name="e-post" required title="name@domain.se" placeholder="name@domain.se"><br/>
+          <label id="personnummer">Personnummer</label><br/>
+          <input type="text" id="personnummer" name="Personnummer"/><br/>
+        </form>
+    </article>
   </div>
-    <footer>
+<div class="row">
+    <article class="col-sm-6">
+<p>
+hej
+</p>
+<fieldset>
+      <h4>Vi vill bli bättre</h4>
+      <p>Svara på nedanstående frågor för att hjälpa oss i vår ambition att bli bättre.</p>
+  <select name="fragor" class="fragor">
+      <option>Din ålder:<input type="text" name="Din ålder"></option><br/>    
+</select>
+      <input type="checkbox" name="Undersokning" value="Man">Man<br/>
+      <input type="checkbox" name="Undersokning" value="Kvinna">Kvinna<br/>
+      <p> 
+      </p>
+      <p>Är du?</p>
+      <input type="checkbox" name="Undersokning" value="Ny kund">Ny kund<br/>
+      <input type="checkbox" name="Undersokning" value="Kund sedan tidigare">Kund sedan tidigare<br/>
+      <p>Vilken typ av kund är du?</p>
+      <input type="checkbox" name="Undersokning" value="Privatkund">Privatkund<br/>
+      <input type="checkbox" name="Undersokning" value="Foretagskund">Företagskund<br/>
+      <p> 
+      </p>
+      <p>Vilka produkter har du köpt under det senaste året?</p>
+      <input type="checkbox" name="Undersokning" value="Bokat PT">Bokat PT<br/>
+      <input type="checkbox" name="Undersokning" value="Kopt klader">Köpt kläder<br/>
+      <input type="checkbox" name="Undersokning" value="Annat">Annat<br/>
+      <p> 
+      </p>  
+      <p>Hur ofta använder du någon av våra produkter?</p>
+      <input type="checkbox" name="Undersokning" value="Varje dag">Varje dag<br>
+      <input type="checkbox" name="Undersokning" value="Nagon eller nagra ganger varje vecka">Någon eller några gånger varje vecka<br>
+      <input type="checkbox" name="Undersokning" value="Nagon eller nagra ganger varje månad">Någon eller några gånger varje månad<br>
+      <input type="checkbox" name="Undersokning" value="Sallan eller inte alls">Sällan eller inte alls<br>
+      <p> 
+      </p>
+      <p>Våra produkter håller god kvalitet</p>
+      <input type="checkbox" name="Undersokning" value="Haller helt med">Håller helt med<br>
+      <input type="checkbox" name="Undersokning" value="Haller delvis med">Håller delvis med<br>
+      <input type="checkbox" name="Undersokning" value="Haller inte alls med">Håller inte alls med<br>
+      <p> 
+      </p>
+      <p>Övriga kommentarer</p>
+      <textarea name="Kommentera garna" cols="30" rows="6">Skriv här:</textarea>
+      <p>Tack för dina svar, vi uppskattar din hjälp och skickar en trisslott som tack för hjälpen</p>
+  </article>
+</div>
+   </fieldset>
+</form>
+  <footer>
     <div class="col-sm-3">
       <h3>Hitta till oss</h3><img src="images/karta.png" alt="karta" title="karta" class="karta">
       <h3>Adress:</h3>
@@ -80,7 +151,7 @@
       info@ptathome.se<br>
       </p>
     </div>
-      <div class="col-sm-3"><h3>Våra partners</h3><img src="images/partners.png" class="partner" alt="partners" title="partners">
+      <div class="col-sm-3"><h3>Våra partners</h3><img src="images/partners.png" class="partner"alt="partners" title="partners">
         <h3>Information</h3>
       <p>Support<br>
       FAQ<br>
@@ -89,12 +160,12 @@
       EU:s hjälp vid tvist<br>
       </p>
       </div>
-      <div class="col-sm-3"><h3>Nyhetsbrev</h3><img src="images/fb.png" alt="sociala medier" class="fb" title="sociala medier"> 
+      <div class="col-sm-3"><h3>Nyhetsbrev</h3><img src="images/fb.png" alt="sociala medier" class="fb"title="sociala medier">
         <h3>Anmäl dig till vårt nyhetsbrev:</h3>
         <form action="nyhetsbrevet">
-      <p>Din mailadress:</p><input type="text" name="mailadressen" required value="Skriv din mailadress"><br><p>  
+      <p>Din mailadress:</p><input type="text" name="mailadressen" required title="name@domain.se" placeholder="name@domain.se"><br><p>  
       </p>
-      <a href="default.asp" class="skicka">Skicka</a>
+      <a href="default.asp" class="skicka" target="_blank" input type="submit" value="Skicka">Skicka</a>
       </form>
       <p>Klicka på skicka så får du automatiskt vårt trevliga nyhetsbrev</p>
       </div>

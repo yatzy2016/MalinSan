@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+}
+#wrapper {
+    width: 900px;
+    border: 2px solid green;
+    margin: 10px auto;
+}
+ /*************toppen finns här ***********/
+
+li {
+    display: inline;
+}
+
+header {
+    border: 2px double blue;
+}
+
+#company {
+    background-color: red;
+}
+#subnavigering{
+    background-color:cadetblue;
+}
+
+    #company a, #subnavigering a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        margin-right: 20px;
+    }
+
+header div img {
+    width: 160px;
+    height: 100px;
+}
+
+header div img, header div form {
+    margin-left: 20px;
+    margin-right: 90px;
+}
+
+form {
+    display: inline;
+}
+ /*************article finns här ***********/
+
+ article{
+     width: 600px;
+     /*background-color: yellow;*/
+     float: left;   
+ }
+ aside{
+     width:270px;
+     /*background-color: aqua;*/
+     float: left;
+ }
+ #down{
+     clear:both;
+ }
+ #around{
+     border:1px solid gray;
+ }
+ aside img{
+     width:150px;
+ }
+ figure{
+     width: 200px;
+     float:left;
+ }

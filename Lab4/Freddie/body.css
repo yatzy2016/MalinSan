@@ -1,0 +1,18 @@
+body {
+}
+header{
+    background-color:gray;
+}
+header div img#hej{
+    width: 180px;
+    height:50px;
+}
+li {
+    display: inline;
+}
+ nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        margin-right: 20px;
+    }
