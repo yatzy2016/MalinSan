@@ -18,7 +18,11 @@ li {
 }
 
 .mamma {
-    border-top: 40px;
+    margin top: 150px;
+    height: 300px;
+    width: auto;
+    border-image: 10px:;
+
 }
 nav li a {
     display: block;
