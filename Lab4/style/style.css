@@ -104,7 +104,7 @@ nav {
     margin-right: 10px;
 }
 .produktruta{
-    width: 150px;
+    width: 100px;
     height: 70px;
     background-color: #000000;
     text-align: center; 
@@ -118,6 +118,5 @@ td {
     font-size: 10px;
 }
 .fragor{
-
     margin-left: 20px;
 }
