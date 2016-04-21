@@ -117,6 +117,9 @@ th {
 td {
     font-size: 10px;
 }
-.fragor{
+.fragor {
     border-left: 100px;
+}
+img{
+    width: 90%;
 }
